@@ -1,0 +1,47 @@
+.tabs__tab{
+    text-decoration: none;
+    color: var(--grey-brand);
+    
+}
+
+.tabs__tab .a{
+    font-family: quicksand;
+}
+
+.tabs__tabslist{
+    display:flex;
+    border: 1px solid rgba(83, 103, 121);
+    border-radius: 15px;
+    background-color: rgba(217, 217, 217, 0.5);
+    justify-content: space-between;
+    font-family: "quicksand";
+}
+
+.tab__container-title{
+    font-family: "quicksand";
+    font-weight: 400;
+    font-size: var(--font-size-plus-3);
+}
+
+.tab__container{
+    padding-top: var(--baseline);
+}
+
+.js-tabs__link{
+    padding: calc(var(--baseline)/2);
+}
+
+.js-tabs__link a {
+    font-family: "quicksand";
+    font-weight: 400;
+}
+
+.js-tabs__link:active  {
+    background-color: var(--brand-color);
+
+}
+
+.js-tabs__link:active .tabs__tabpanel {
+    display:block;
+
+}

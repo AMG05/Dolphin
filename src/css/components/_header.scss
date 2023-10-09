@@ -1,0 +1,27 @@
+.header{
+    border-bottom: 4px solid #57D7D2;
+    background-color:var(--light-grey-1);
+}
+
+
+.header-elements {
+    display: flex;
+    justify-content: space-between;
+    // padding-top: calc(var(--baseline)*1);
+    // padding-bottom: calc(var(--baseline)*1);
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-right{
+    display: flex;
+}
+
+
+.header__logo{
+    max-width: 200px;
+
+}

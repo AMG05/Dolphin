@@ -1,0 +1,69 @@
+.chart__container-title{
+    font-family: "quicksand";
+    font-weight: 400;
+    font-size: var(--font-size-plus-3);
+}
+.tab__container{
+    padding-top: var(--baseline);
+}
+
+.chart__nav-items{
+    display:flex;
+    border: 1px solid rgba(83, 103, 121);
+    border-radius: 15px;
+    background-color: rgba(217, 217, 217, 0.5);
+    justify-content: space-between;
+    font-family: "quicksand";
+    
+    
+}
+
+.chart__nav-item{
+    padding: calc(var(--baseline)/2);
+    font-family: "quicksand";
+    font-weight: 500;
+  
+    
+}
+
+.chart__nav-item:hover{
+    font-weight: 600;
+    background-color: var(--brand-color);
+    border: 1px solid var(--brand-color);
+    border-radius: 15px;
+    
+}
+
+.chart__nav-a{
+    text-decoration: none;
+    color: var(--grey-brand);
+    font-family: "quicksand";
+}
+
+
+.chart__nav-a:hover{
+    color: var(--brand-color);
+
+    
+}
+
+.chart__elements{
+    display: flex;
+    align-items:center;
+}
+
+.amount {
+    font-family: "quicksand";
+    font-weight: 600;
+    padding-right: var(--baseline);
+    padding-left: var(--baseline);
+
+}
+
+.date {
+    font-weight: 600;
+    font-family: "quicksand";
+    padding-right: var(--baseline);
+    padding-left: var(--baseline);
+   
+  }

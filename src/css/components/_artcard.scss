@@ -1,0 +1,84 @@
+.card__container {
+   height: 640px; 
+
+}
+
+.row cards {
+   
+}
+.cards{
+    padding-top: 24px;
+    
+}
+
+
+.art-card{
+    padding: calc(var(--baseline));
+    background-color: white;
+    border-radius: 24px;
+    border: 6px solid var(--brand-color);
+    box-shadow: 1px 1px 1px 1px;
+    margin-bottom: 12px;
+    
+     
+}
+
+.art__card-white{
+    padding: calc(var(--baseline));
+    background-color: white;
+    border-radius: 24px;
+    border: 6px solid var(--brand-color);
+    box-shadow: 0.5px 0.5px; 
+     
+}
+
+
+.art-card:nth-child(4){
+    
+}
+
+.digits{
+    font-size: var(--font-size-minus-1);
+}
+
+.digits-savings{
+    font-size: var(--font-size-plus-1);
+}
+
+
+.card-category{
+    font-size: var(--font-size-plus-3);
+    font-family: "quicksand";
+    font-weight: 600;
+}
+
+.card-title{
+    color: var(--grey-brand);
+    text-decoration: none;
+}
+
+.card-account{
+color: #7C8DB0;
+font-family: "quicksand";
+font-weight: 500;
+}
+
+.card-total{
+    font-size: var(--font-size-plus-1);
+    color: #536779;
+}
+
+.spend-category {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: var(--baseline);
+}
+
+.spend-category .card-title {
+    font-size: var(--font-size-plus-3);
+}
+
+.spend-category .card-account {
+    font-size: var(--font-size-plus-3);
+    font-weight: 600;
+}
