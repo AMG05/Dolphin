@@ -7,10 +7,10 @@
 
 .block--bg{
     padding-bottom:calc(var(--baseline)*2);
-    padding-top:calc(var(--baseline)*2);
+    padding-top:calc(var(--baseline));
     @media(min-width: map-get($mq-breakpoints,  md)) {
         padding-bottom:calc(var(--baseline)*4);
-        padding-top:calc(var(--baseline)*4);
+        padding-top:calc(var(--baseline));
     }
 }
 
@@ -21,6 +21,7 @@
 .block-list{
     > :first-child {
         margin-top:0;
+        
     }
     > :last-child{
         margin-bottom: calc(var(--baseline)*2);
@@ -35,4 +36,5 @@
 
 .block-first {
     padding-top:0;
+    padding-bottom: calc(var(--baseline)/2);
 }

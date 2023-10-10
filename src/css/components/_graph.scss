@@ -10,24 +10,19 @@ dl {
   width: 100%;
   border: 2px solid var(--brand-color);
   border-radius: 15px;
-  // max-width: 700px;
-  // position: relative;
-  // padding: 20px;
+ 
 }
 
 dt {
-  // align-self: flex-start;
-  // width: 100%;
+  
   font-weight: 700;
+  padding-top: var(--baseline);
   padding-bottom: var(--baseline);
-  padding-left: var(--baseline);
-  // display: block;
-  // text-align: center;
-  // font-size: 1.2em;
-  // font-weight: 700;
-  // margin-bottom: 20px;
-  // margin-left: 130px;
+  padding-left: calc(var(--baseline)*3);
+
 }
+
+
 
 
 
@@ -37,7 +32,7 @@ dt {
   text-transform: uppercase;
   width: 100%;
   height: 40px;
-  // margin-left: 80px;
+
   ;
   
   &:after {

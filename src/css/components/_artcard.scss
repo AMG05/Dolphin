@@ -7,7 +7,7 @@
    
 }
 .cards{
-    padding-top: 24px;
+    padding-top: calc(var(--baseline)/2);
     
 }
 
@@ -17,7 +17,7 @@
     background-color: white;
     border-radius: 24px;
     border: 6px solid var(--brand-color);
-    box-shadow: 1px 1px 1px 1px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.25);
     margin-bottom: 12px;
     
      
@@ -28,7 +28,7 @@
     background-color: white;
     border-radius: 24px;
     border: 6px solid var(--brand-color);
-    box-shadow: 0.5px 0.5px; 
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.25); 
      
 }
 

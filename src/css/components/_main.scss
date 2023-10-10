@@ -9,7 +9,7 @@
     font-family: "quicksand";
     color: #536779;
     font-size: var(--font-size-plus-4);
-    font-weight: 500;
+    font-weight: var(--medium-weight);
     padding-top: var(--baseline);
     padding-bottom: var(--baseline);
     align-items: flex-start;
@@ -44,6 +44,7 @@
 
 .search__container{
     display: flex;
+    
 }
 
 .search__form{
@@ -82,10 +83,17 @@
     background-color: transparent;
     border: none;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    padding-left: 4px;
+    padding-top: 3px;
     
 }
 
 
 .intro{
-    padding-bottom: calc(var(--baseline)*4);
+    padding-bottom: calc(var(--baseline)*2);
+    @media(min-width: 768px){
+        padding-bottom: calc(var(--baseline)*4);
+    }
 }

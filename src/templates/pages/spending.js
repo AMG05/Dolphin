@@ -55,39 +55,41 @@ const SpendingPage = () => (
                             </div>
                         </div>
                         <div class="wrap tabs js-tabs">
-                            <div class="col xs-12 md-8 lg-5 tab__container">
-                                <div class="tabs__tabslist" role="tablist">
-                                    <a
-                                    id="tab-1"
-                                    class="tabs__tab js-tabs__link"
-                                    href="#week"
-                                    role="tab"
-                                    >
-                                    Week
-                                    </a>
-                                    <a
-                                    id="tab-2"
-                                    class="tabs__tab js-tabs__link"
-                                    href="#month"
-                                    role="tab"
-                                    >
-                                    Month
-                                    </a>
-                                    <a
-                                    id="tab-3"
-                                    class="tabs__tab js-tabs__link"
-                                    href="#year"
-                                    role="tab"
-                                    >
-                                    Year
-                                    </a>
-                                    <a 
-                                    id="tab-4"
-                                    class="tabs__tab js-tabs__link" 
-                                    href="#select-amounts" 
-                                    role="tab"
-                                    >Select Dates
-                                    </a>
+                            <div class="row">
+                                <div class="col xs-12 md-8 lg-5 tab__container">
+                                    <div class="tabs__tabslist" role="tablist">
+                                        <a
+                                        id="tab-1"
+                                        class="tabs__tab js-tabs__link"
+                                        href="#week"
+                                        role="tab"
+                                        >
+                                        Week
+                                        </a>
+                                        <a
+                                        id="tab-2"
+                                        class="tabs__tab js-tabs__link"
+                                        href="#month"
+                                        role="tab"
+                                        >
+                                        Month
+                                        </a>
+                                        <a
+                                        id="tab-3"
+                                        class="tabs__tab js-tabs__link"
+                                        href="#year"
+                                        role="tab"
+                                        >
+                                        Year
+                                        </a>
+                                        <a 
+                                        id="tab-4"
+                                        class="tabs__tab js-tabs__link" 
+                                        href="#select-amounts" 
+                                        role="tab"
+                                        >Select Dates
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                             <div id="week" class="tabs__tabpanel" role="tabpanel">

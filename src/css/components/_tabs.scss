@@ -1,6 +1,15 @@
 .tabs__tab{
     text-decoration: none;
     color: var(--grey-brand);
+    font-family: "quicksand";
+    font-weight: 400;
+    color: #536779;
+    
+}
+
+.tabs__tab:hover{
+    background-color: var(--brand-color);
+    border-radius: 18px;
     
 }
 
@@ -19,12 +28,14 @@
 
 .tab__container-title{
     font-family: "quicksand";
-    font-weight: 400;
+    color: #536779;
+    font-weight: 600;
     font-size: var(--font-size-plus-3);
 }
 
 .tab__container{
     padding-top: var(--baseline);
+    
 }
 
 .js-tabs__link{

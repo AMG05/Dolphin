@@ -10,9 +10,7 @@
     position: relative;
     bottom: 85px;    
     right: 20px; 
-    // height: 12vh;
-    // width: 10vw;
-    // max-width: 60%;
+   
 
     @media(min-width: 768px){
         display: none;
@@ -106,20 +104,3 @@
 
 
 
-
-.modal-search__btn {
-    background-color: transparent;
-    padding-right: 24px;
-    display: block;
-    font-family: "quicksand";
-    border: 2px solid var(--brand-color);
-    border-radius: 24px;
-
-    // @media(min-width: 768px){
-    //     display: none;
-    // }
-}
-
-.modal-search__btn-icon{
-    // position: fixed;
-}

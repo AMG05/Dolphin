@@ -39,27 +39,17 @@ const SavingsPage = () => <Fragment>
                 </div>
             </div>
         </div>
-        <div class="wrap">
-            <div class="row">
-                <div class="xs-12 md-6 lg-4">
-                    <div class="local__toggle__container">
-                        <div class="toggle__container js-toggle__local" data-toggle="js-toggle__local__btn" id="js-toggle__local">
-                                <button class="expandable-search__btn js-toggle__local__btn" aria-label="Show or hide site search">
-                                    <svg class="expandable-search__btn-icon" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#333333">
-                                        <path d="M0 0h24v24H0z" fill="none"></path>
-                                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
-                                    </svg>
-                                </button>
-                                <div class="expandable-search js-expandable-search" id="expandable-search" data-toggle="js-toggle__local__btn">
-                                    <form class="expandable-search__form" action="#" role="search">
-                                        <label class="expandable-search__label" for="q">Input your search term</label>
-                                        <input class="expandable-search__input" type="search" id="q" name="q" />
-                                        <button class="expandable-search__submit">search</button>
-                                    </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="wrap expandable-search__wrap">
+            <div class="expandable-search__container">
+                <button class="expandable-search__btn js-toggle__local__btn" aria-label="Show or hide site search">
+                    <svg class="expandable-search__btn-icon" focusable="false" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" height="36px" viewBox="0 0 24 24" width="36px" fill="#333333">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                    </svg>
+                </button>
+                <form class="expandable-search js-toggle__local" id="expandable-search" data-toggle="js-toggle__local__btn" action="#" role="search">
+                    <input class="expandable-search__input" aria-label="Search transactions" type="search" id="q" name="q" />
+                </form>
             </div>
         </div>
     <div class="block-list">
@@ -71,7 +61,7 @@ const SavingsPage = () => <Fragment>
                                 <tr class="table__row">
                                     <th class="table__header">Date</th>
                                         <th class="table__header">Transactions</th>
-                                        <th class="table__header">Amount</th>
+                                        <th class="table__header"></th>
                                         <th class="table__header">Balance</th>
                                 </tr>
                             </thead>

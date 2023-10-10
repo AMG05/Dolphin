@@ -50,7 +50,7 @@ const Header = ({ children }) =>
                                                         <a href="" class="off-canvas__link">Transfers</a>
                                                     </li>
                                                     <li class="off-canvas__item">
-                                                        <a href="" class="off-canvas__link">My spending</a>
+                                                        <a href="/spending" class="off-canvas__link">My spending</a>
                                                     </li>
                                                     <li class="off-canvas__item">
                                                         <a href="" class="off-canvas__link">Cards</a>

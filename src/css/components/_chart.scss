@@ -50,6 +50,8 @@
 .chart__elements{
     display: flex;
     align-items:center;
+    padding-left:calc(var(--baseline)*2);
+    padding-right: 24px;
 }
 
 .amount {
